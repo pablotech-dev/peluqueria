@@ -116,3 +116,15 @@ h1, h2, h3, .logo {
   
   .grid-services { grid-template-columns: 1fr; }
 }
+
+/* Ajustes extra para el widget de reservas */
+.calendly-inline-widget {
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.ayuda-reserva p {
+  color: var(--text-muted);
+  font-size: 15px;
+  margin-bottom: 20px;
+}

@@ -103,20 +103,23 @@
     <div class="container">
       <div class="section-header">
         <h2>Reserva tu Experiencia</h2>
-        <p>Para garantizar una atención óptima y personalizada, gestionamos todas las citas de manera directa.</p>
+        <p>Elige el servicio, tu estilista y la hora que mejor se adapte a ti de forma 100% online.</p>
       </div>
       
       <div class="booking-wrapper">
         <div class="booking-box">
-          <h3>📅 ¿Cómo prefieres reservar?</h3>
-          <p>Haz clic en el botón de abajo para abrir un chat directo de WhatsApp o llámanos directamente por teléfono si prefieres hablar con una estilista.</p>
-          <div class="booking-actions">
-            <a href="https://wa.me/34612345678" target="_blank" class="btn-booking whatsapp">
-              Reserva por WhatsApp
-            </a>
-            <a href="tel:+34612345678" class="btn-booking phone">
-              Llamar al Salón: 612 345 678
-            </a>
+          <!-- Widget de Reservas (Ejemplo con Calendly) -->
+          <div class="calendly-inline-widget" data-url="https://calendly.com/TU_USUARIO_AQUI" style="min-width:320px;height:650px;"></div>
+          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+          
+          <!-- Alternativa secundaria para clientes con dudas -->
+          <div class="ayuda-reserva" style="margin-top: 40px; border-top: 1px solid #eaeaea; padding-top: 30px;">
+            <p>¿Tienes dudas sobre qué tratamiento o tipo de coloración elegir?</p>
+            <div class="booking-actions">
+              <a href="https://wa.me/34612345678" target="_blank" class="btn-booking whatsapp">
+                Consultar por WhatsApp
+              </a>
+            </div>
           </div>
         </div>
       </div>
